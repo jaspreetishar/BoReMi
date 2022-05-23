@@ -1,4 +1,4 @@
 widget values for updated image download
 2
 1
-0
+3
