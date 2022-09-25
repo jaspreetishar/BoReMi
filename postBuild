@@ -1,0 +1,4 @@
+jupyter contrib nbextension install --user
+jupyter nbextension enable codefolding/main
+jupyter nbextension enable hide_input/main
+jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38 --minimize=False
