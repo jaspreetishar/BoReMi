@@ -16,7 +16,7 @@ import Functions_for_MAT
 # If you want to test multiple data-types together, enter the different files addresses in the "file_names" list separated
 # by commas. The same applies to all the other lists made for different column names.
 
-file_names = ["/home/jovyan/Binder/Sample_Input/Spatio_molecular_Data/mf_obs.csv"]
+file_names = ["/home/jovyan/Sample_Input/Spatio_molecular_Data/mf_obs.csv"]
 x_coordinate_column_names = ["center_x"]
 y_coordinate_column_names = ["center_y"]
 clusters_column_names = ["leiden"]
@@ -28,14 +28,14 @@ total_tabs = title
 
 # Enter the addresses or URLs of H&E images for alignment (either absolute addresses or relative addresses).
 
-imgs = ["/home/jovyan/Binder/Sample_Input/HE_Images/1.jpg", 
-        "/home/jovyan/Binder/Sample_Input/HE_Images/2.jpg", 
-        "/home/jovyan/Binder/Sample_Input/HE_Images/3.jpg", 
-        "/home/jovyan/Binder/Sample_Input/HE_Images/4.jpg"]
+imgs = ["/home/jovyan/Sample_Input/HE_Images/1.jpg", 
+        "/home/jovyan/Sample_Input/HE_Images/2.jpg", 
+        "/home/jovyan/Sample_Input/HE_Images/3.jpg", 
+        "/home/jovyan/Sample_Input/HE_Images/4.jpg"]
 
 # Enter your current localhost port number.
 
-your_current_localhost_port_number = "localhost:8891"
+# your_current_localhost_port_number = "localhost:8891"
 
 # Manual Alignment Tool
 
