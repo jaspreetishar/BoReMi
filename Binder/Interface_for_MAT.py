@@ -1,4 +1,4 @@
-get_ipython().run_line_magic('run', 'Functions_for_MAT.py')
+import Functions_for_MAT
 
 # Enter the address of the .csv / .xlsx / .h5ad file as the 1st parameter
 # (in case of ".h5ad" file, the "x-y coordinates" and "clusters" containing dataframe 
@@ -46,20 +46,21 @@ your_current_localhost_port_number = "localhost:8891"
 # Everything downloaded via the Manual Alignment Tool (i.e., the updated x-y coordinates & the updated image)
 # will get saved in the "Downloads" folder. The image however will get downloaded without showing a success prompt.
 
-def manual_alignment_tool(doc):
+#def manual_alignment_tool(doc):
 
-    list_for_all_data_types, list_for_storing_total_clusters_info_in_each_file, list_for_storing_max_x_coordinate_of_each_file, list_for_storing_max_y_coordinate_of_each_file, list_for_storing_average_of_x_coordinated_of_each_file, list_for_storing_average_of_y_coordinated_of_each_file = creating_required_number_of_input_dictionaries(file_names, x_coordinate_column_names, y_coordinate_column_names, clusters_column_names, total_tabs)
+list_for_all_data_types, list_for_storing_total_clusters_info_in_each_file, list_for_storing_max_x_coordinate_of_each_file, list_for_storing_max_y_coordinate_of_each_file, list_for_storing_average_of_x_coordinated_of_each_file, list_for_storing_average_of_y_coordinated_of_each_file = creating_required_number_of_input_dictionaries(file_names, x_coordinate_column_names, y_coordinate_column_names, clusters_column_names, total_tabs)
 
-    layout_for_display = manual_alignment_tool_work_space(total_tabs, list_for_all_data_types, 
-                                         list_for_storing_total_clusters_info_in_each_file, 
-                                         list_for_storing_max_x_coordinate_of_each_file, 
-                                         list_for_storing_max_y_coordinate_of_each_file, 
-                                         list_for_storing_average_of_x_coordinated_of_each_file, 
-                                         list_for_storing_average_of_y_coordinated_of_each_file, 
-                                         imgs, title)
+layout_for_display = manual_alignment_tool_work_space(total_tabs, list_for_all_data_types, 
+                                 list_for_storing_total_clusters_info_in_each_file, 
+                                 list_for_storing_max_x_coordinate_of_each_file, 
+                                 list_for_storing_max_y_coordinate_of_each_file, 
+                                 list_for_storing_average_of_x_coordinated_of_each_file, 
+                                 list_for_storing_average_of_y_coordinated_of_each_file, 
+                                 imgs, title)
     
-    doc.add_root(layout_for_display)
-
-output_notebook()
-show(Application(FunctionHandler(manual_alignment_tool)), notebook_url=your_current_localhost_port_number, notebook_handle=True)
-push_notebook()
+#doc.add_root(layout_for_display)
+curdoc().add_root(layout_for_display)
+curdoc().title = "Manual Alignment Tool"
+#output_notebook()
+#show(Application(FunctionHandler(manual_alignment_tool)), notebook_url=your_current_localhost_port_number, notebook_handle=True)
+#push_notebook()
