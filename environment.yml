@@ -7,3 +7,4 @@ dependencies:
   - pip
   - pip:
     - jupyter-server-proxy
+    - nbserverproxy
