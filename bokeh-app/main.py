@@ -60,7 +60,7 @@ layout_for_display = manual_alignment_tool_work_space(total_tabs, list_for_all_d
     
 #doc.add_root(layout_for_display)
 curdoc().add_root(layout_for_display)
-curdoc().title = "Manual Alignment Tool"
+curdoc().title = "Manual_Alignment_Tool"
 #output_notebook()
 #show(Application(FunctionHandler(manual_alignment_tool)), notebook_url=your_current_localhost_port_number, notebook_handle=True)
 #push_notebook()
