@@ -1,6 +1,7 @@
 dependencies:
   - anndata
   - bokeh
+  - jupyter-bokeh
   - numpy
   - pandas
   - Pillow
