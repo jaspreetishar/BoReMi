@@ -1,5 +1,5 @@
 # enable jupyter_server_proxy
-jupyter serverextension enable --sys-prefix jupyter_server_proxy
+# jupyter serverextension enable --sys-prefix jupyter_server_proxy
 # enable nbserverproxy
 jupyter serverextension enable --sys-prefix nbserverproxy
 # install the bokeh server extension so that
