@@ -1,7 +1,7 @@
 dependencies:
   - anndata
-  - bokeh
-  - jupyter_bokeh
+  - bokeh==2.4.3
+  - jupyter_bokeh==3.0.5
   - numpy
   - pandas
   - Pillow
