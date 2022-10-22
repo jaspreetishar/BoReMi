@@ -3,11 +3,11 @@ Bokeh-based GUI for Registering spatio-molecular data to related Microscopy imag
 
 ## Data Sources -
 
-Sample H&E Images:
+#### Sample H&E Images:
 
 https://mouse.brain-map.org/experiment/siv?id=100142143&imageId=102162242&imageType=atlas&initImage=atlas&showSubImage=y&contrast=0.5,0.5,0,255,4
 
-Sample spatio-molecular data:
+#### Sample spatio-molecular data:
 
 1.) X-Y Coordinates - https://storage.cloud.google.com/public-datasets-vizgen-merfish/datasets/mouse_brain_map/BrainReceptorShowcase/Slice2/Replicate1/cell_metadata_S2R1.csv
 
