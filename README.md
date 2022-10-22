@@ -1,7 +1,7 @@
 # BoReMi
 Bokeh-based GUI for Registering spatio-molecular data to related Microscopy images.
 
-## Sources -
+## Data Sources -
 
 Sample H&E Images:
 
