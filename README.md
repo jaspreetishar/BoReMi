@@ -1,5 +1,5 @@
-# Manual-Alignment-Tool
-An interactive, visual tool for registering any type of spatio-molecular data to related microscopy images.
+# Manual Alignment Tool, a.k.a. "BoReMi"
+Bokeh-based GUI for Registering spatio-molecular data to related Microscopy images.
 
 ## Sources -
 
