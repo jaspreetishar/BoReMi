@@ -1,4 +1,4 @@
-# Manual Alignment Tool, a.k.a. "BoReMi"
+# BoReMi
 Bokeh-based GUI for Registering spatio-molecular data to related Microscopy images.
 
 ## Sources -
