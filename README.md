@@ -5,7 +5,7 @@ Bokeh-based jupyter-interface for Registering spatio-molecular data to related M
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jaspreetishar/BoReMi/main?urlpath=/lab/tree/Binder/Notebooks/GUI.ipynb)
 
-## Data Sources -
+## Example Data Sources -
 
 #### Sample HE images:
 [Mouse brain H&E images](https://mouse.brain-map.org/experiment/siv?id=100142143&imageId=102162242&imageType=atlas&initImage=atlas&showSubImage=y&contrast=0.5,0.5,0,255,4)
