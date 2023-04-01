@@ -7,3 +7,6 @@ Pillow
 matplotlib
 matplotlib-inline
 voila
+pip
+pip:
+  - jupyter-server-proxy
