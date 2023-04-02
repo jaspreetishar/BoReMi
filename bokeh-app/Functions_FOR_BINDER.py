@@ -25,7 +25,7 @@ from bokeh.models.widgets import Panel, Tabs
 from bokeh.layouts import column, row
 from bokeh.events import ButtonClick, Pan, MouseEnter, RangesUpdate
 from bokeh.plotting import figure, show
-from bokeh.io import push_notebook, output_notebook
+from bokeh.io import push_notebook, output_notebook, curdoc
 
 
 # In[2]:
