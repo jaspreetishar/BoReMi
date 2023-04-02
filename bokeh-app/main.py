@@ -13,7 +13,7 @@ import Functions_FOR_BINDER as BINDER
 # In[9]:
 
 
-file_names = [r"C:\Users\NPS\Downloads\subsampled_mf_obs.csv"]
+file_names = ["home/jovyan/Binder/Sample Input/Spatio-molecular data/subsampled_mf_obs.csv"]
 #file_names = [r"C:\Users\NPS\Downloads\MAT_1_DATA_TYPE\mf_obs.csv"]
 x_coordinate_column_names = ["center_x"]
 y_coordinate_column_names = ["center_y"]
@@ -35,10 +35,10 @@ title = ["MERFISH"]
 
 # Addresses of the "HE image" files along with their pixel size.
 
-imgs = [r"C:\Users\NPS\Desktop\New folder\JK\FINAL BOREMI CODE\Sample_Input\HE_Images\1.jpg", 
-        r"C:\Users\NPS\Desktop\New folder\JK\FINAL BOREMI CODE\Sample_Input\HE_Images\2.jpg", 
-        r"C:\Users\NPS\Desktop\New folder\JK\FINAL BOREMI CODE\Sample_Input\HE_Images\3.jpg", 
-        r"C:\Users\NPS\Desktop\New folder\JK\FINAL BOREMI CODE\Sample_Input\HE_Images\4.jpg"]
+imgs = ["home/jovyan/Binder/Sample Input/HE images/1.jpg", 
+        "home/jovyan/Binder/Sample Input/HE images/2.jpg", 
+        "home/jovyan/Binder/Sample Input/HE images/3.jpg", 
+        "home/jovyan/Binder/Sample Input/HE images/4.jpg"]
 
 scale_for_he_image = 0.14
 
