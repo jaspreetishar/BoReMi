@@ -7,4 +7,5 @@ dependencies:
   - Pillow
   - pip
   - pip:
+    - nbserverproxy
     - jupyter-server-proxy
