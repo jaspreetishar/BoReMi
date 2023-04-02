@@ -7,7 +7,7 @@
 # This cell imports all the required modules and functions.
 
 #get_ipython().run_line_magic('run', 'Functions_FOR_BINDER.ipynb')
-import Functions_FOR_BINDER as BINDER
+import Functions_FOR_BINDER_JS as BINDER
 
 
 # In[9]:
