@@ -7,6 +7,3 @@ dependencies:
   - matplotlib-inline
   - numpy
   - Pillow
-  - pip
-  - pip:
-    - jupyter-server-proxy
