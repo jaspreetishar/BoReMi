@@ -48,4 +48,4 @@ Bokeh-based jupyter-interface for Registering spatio-molecular data to related M
 
 7. BoReMi Usage: Follow the provided guidelines and instructions inside GUI.ipynb. Begin using the tool and explore its functionalities.
 
-8. Exit: To exit the virtual encironment, type "conda deactivate" in the terminal or an anaconda command prompt.
+8. Exit: To exit the virtual environment, type "conda deactivate" in the terminal or an anaconda command prompt.
