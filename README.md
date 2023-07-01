@@ -29,7 +29,7 @@ Bokeh-based jupyter-interface for Registering spatio-molecular data to related M
   
 3. Obtaining the notebooks: There are two methods to obtain the notebooks.
    - Direct Download: Click on "Code" at the upper right corner of this repository and select "Download ZIP". Move the downloaded .zip file to the desired directory on your local machine/cluster and unpack it.
-   - Git Clone: Use the command 'git clone https://github.com/jaspreetishar/BoReMi.git' to clone the repository and extract the notebooks onto your local machine/cluster.
+   - Git Clone: Use the command "git clone https://github.com/jaspreetishar/BoReMi.git" to clone the repository and extract the notebooks onto your local machine/cluster.
 
 4. Required libraries/packages/extensions: Make sure to install the required libraries/packages/extensions mentioned in the 'requirements.txt' file on the repository's main page.
    - Setting up a New Virtual Environment: It is recommended to create a new virtual environment for using BoReMi to avoid conflicts with existing versions of the required libraries/packages/extensions. Follow these steps to set up a virtual environment in Conda -
