@@ -34,7 +34,7 @@ Bokeh-based jupyter-interface for Registering spatio-molecular data to related M
 4. Required libraries/packages/extensions: Make sure to install the required libraries/packages/extensions mentioned in the 'requirements.txt' file on the repository's main page.
    - Setting up a New Virtual Environment: It is recommended to create a new virtual environment for using BoReMi to avoid conflicts with existing versions of the required libraries/packages/extensions. Follow these steps to set up a virtual environment in Conda -
        
-       A. Install Conda by visiting the provided [link](https://docs.conda.io/en/latest/miniconda.html) and following the installation guidelines for your operating system.
+       A.  Install Conda by visiting the provided [link](https://docs.conda.io/en/latest/miniconda.html) and following the installation guidelines for your operating system.
 
        B. Check if Conda is successfully installed by opening the terminal or an Anaconda command prompt and typing "conda -V". You should see "conda {version}" if it is installed correctly.
        
