@@ -23,47 +23,31 @@ Bokeh-based jupyter-interface for Registering spatio-molecular data to related M
 
 ## Quick Start Guide: Setting up BoReMi on a Cluster or a Local Environment
 
-1. Notebooks:
-   - Two notebooks are provided for setting up BoReMi in the "BoReMi directory" on the repository's main page: GUI.ipynb and Functions.ipynb.
+1. Notebooks: To set up BoReMi, two notebooks are provided in the "BoReMi directory" on the repository's main page: GUI.ipynb and Functions.ipynb.
    - GUI.ipynb serves as a graphical user interface.
    - Functions.ipynb contains all the necessary functions.
   
-2. Obtaining the notebooks:
-   - Direct Download: Download this repository as a .zip file (click on Code at the upper right corner of this repository --> Download ZIP), move the .zip file in the   desired directory on the local machine/cluster and unpack it. 
-   - Git Clone: Use the command 'git clone https://github.com/jaspreetishar/BoReMi.git' to extract the notebooks onto the local machine/cluster.
+3. Obtaining the notebooks: There are two methods to obtain the notebooks.
+   - Direct Download: Click on "Code" at the upper right corner of this repository and select "Download ZIP". Move the downloaded .zip file to the desired directory on your local machine/cluster and unpack it.
+   - Git Clone: Use the command 'git clone https://github.com/jaspreetishar/BoReMi.git' to clone the repository and extract the notebooks onto your local machine/cluster.
 
-3. Required libraries/packages/extensions:
-   - Ensure installation of required libraries/packages/extensions mentioned in the 'requirements.txt' file on the repository's main page.
-     - New Virtual Environment:
-       - It is recommended to create a new virtual environment to use BoReMi in order to eliminate any clashes between already existing versions of the required libraries/packages/extensions.
-       - Following is a brief explanation for setting up a virtual environment for Python in Conda:
+4. Required libraries/packages/extensions: Make sure to install the required libraries/packages/extensions mentioned in the 'requirements.txt' file on the repository's main page.
+   - Setting up a New Virtual Environment: It is recommended to create a new virtual environment for using BoReMi to avoid conflicts with existing versions of the required libraries/packages/extensions. Follow these steps to set up a virtual environment in Conda -
+       
+       A. Install Conda by visiting the provided [link](https://docs.conda.io/en/latest/miniconda.html) and following the installation guidelines for your operating system.
 
-         A. In order to install Conda, click on this [link](https://docs.conda.io/en/latest/miniconda.html) and follow the installation guidelines for your respective operating system.
+       B. Check if Conda is successfully installed by opening the terminal or an Anaconda command prompt and typing "conda -V". You should see "conda {version}" if it is installed correctly.
+       
+       C. Update the Conda environment by entering "conda update conda" in the terminal or an Anaconda command prompt.
+       
+       D. Create a new virtual environment by typing "conda create -n {environment_name}" in the terminal or an Anaconda command prompt.
+       
+       E. Activate the virtual environment by typing "conda activate {environment_name}" in the terminal or an Anaconda command prompt.
+       
+       F. Install the required libraries/packages/extensions in the virtual environment by typing "conda install -c conda-forge --file {absolute_address_of_requirements.txt}" in the terminal or an Anaconda command prompt.
 
-         B. Next, check if conda is installed in your path.
-            - Open up the terminal or an anaconda command prompt and type "conda -V", then press enter.
-            - If the conda is successfully installed in your system you should see "conda {version}"
-         
-         C. Update the conda environment.
-            - Enter "conda update conda" in the terminal or an anaconda command prompt.
-         
-         D. Set up the virtual environment.
-            - Type "conda create -n {environment_name}" in the terminal or an anaconda command prompt.
-         
-         E. Activate the virtual environment.
-            - Type "conda activate {environment_name}" in the terminal or an anaconda command prompt.
-         
-         F. Install packages in the virtual environment.
-            - Type "conda install -c conda-forge --file {absolute_address_of_requirements.txt}" in the terminal or an anaconda command prompt.
+5. Accessing the GUI: To use BoReMi, open the notebook that contains the GUI. Type "jupyter-lab {absolute_address_of_the_GUI.ipynb}" in the terminal or an Anaconda command prompt.
 
-4. Accessing the GUI:
-   - To use BoReMi, access the notebook that contains the GUI.
-   - Type "jupyter-lab {absolute_address_of_the_GUI.ipynb}" in the terminal or an anaconda command prompt.
+6. BoReMi Usage: Follow the provided guidelines and instructions inside GUI.ipynb. Begin using the tool and explore its functionalities.
 
-5. BoReMi Usage:
-   - Follow the guidelines and instructions provided inside GUI.ipynb.
-   - Begin using the tool and explore its functionalities.
-
-6. Exit:
-   - Deactivate the virtual environment.
-     - Type "conda deactivate" in the terminal or an anaconda command prompt.
+7. Exit: To exit the virtual encironment, type "conda deactivate" in the terminal or an anaconda command prompt.
