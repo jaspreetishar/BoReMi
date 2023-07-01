@@ -60,7 +60,7 @@ Bokeh-based jupyter-interface for Registering spatio-molecular data to related M
    - To use BoReMi, access the notebook that contains the GUI.
    - Type "jupyter-lab {absolute_address_of_the_GUI.ipynb}" in the terminal or an anaconda command prompt.
 
-5. Setup process:
+5. BoReMi Usage:
    - Follow the guidelines and instructions provided inside GUI.ipynb.
    - Begin using the tool and explore its functionalities.
 
