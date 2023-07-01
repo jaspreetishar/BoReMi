@@ -39,7 +39,7 @@ Bokeh-based jupyter-interface for Registering spatio-molecular data to related M
        - Following is a brief explanation for setting up a virtual environment for Python in Conda:
            A. In order to install Conda, click on this [link](https://docs.conda.io/en/latest/miniconda.html) and follow the installation guidelines for your respective operating system.
            B. Next, check if conda is installed in your path.
-              - Open up the terminal or an anaconda command prompt and type "conda -V", then press enter.
+             - Open up the terminal or an anaconda command prompt and type "conda -V", then press enter.
               - If the conda is successfully installed in your system you should see "conda {version}"
            C. Update the conda environment.
               - Enter "conda update conda" in the terminal or an anaconda command prompt.
