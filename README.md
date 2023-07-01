@@ -39,15 +39,13 @@ Bokeh-based jupyter-interface for Registering spatio-molecular data to related M
        B. Check if Conda is successfully installed by opening the terminal or an Anaconda command prompt and typing "conda -V". You should see "conda {version}" if it is installed correctly.
        
        C. Update the Conda environment by entering "conda update conda" in the terminal or an Anaconda command prompt.
-       
-       D. Create a new virtual environment by typing "conda create -n {environment_name}" in the terminal or an Anaconda command prompt.
+
+       D. Create a new virtual environment and install the required libraries/packages/extensions in the virtual environment by typing "conda env create --name {environment_name} --file={absolute_address_of_requirements.txt}" in the terminal or an Anaconda command prompt.
        
        E. Activate the virtual environment by typing "conda activate {environment_name}" in the terminal or an Anaconda command prompt.
        
-       F. Install the required libraries/packages/extensions in the virtual environment by typing "conda install -c conda-forge --file {absolute_address_of_requirements.txt}" in the terminal or an Anaconda command prompt.
+6. Accessing the GUI: To use BoReMi, open the notebook that contains the GUI. Type "jupyter-lab {absolute_address_of_the_GUI.ipynb}" in the terminal or an Anaconda command prompt.
 
-5. Accessing the GUI: To use BoReMi, open the notebook that contains the GUI. Type "jupyter-lab {absolute_address_of_the_GUI.ipynb}" in the terminal or an Anaconda command prompt.
+7. BoReMi Usage: Follow the provided guidelines and instructions inside GUI.ipynb. Begin using the tool and explore its functionalities.
 
-6. BoReMi Usage: Follow the provided guidelines and instructions inside GUI.ipynb. Begin using the tool and explore its functionalities.
-
-7. Exit: To exit the virtual encironment, type "conda deactivate" in the terminal or an anaconda command prompt.
+8. Exit: To exit the virtual encironment, type "conda deactivate" in the terminal or an anaconda command prompt.
