@@ -40,9 +40,11 @@ Bokeh-based jupyter-interface for Registering spatio-molecular data to related M
        
        C. Update the Conda environment by entering "conda update conda" in the terminal or an Anaconda command prompt.
 
-       D. Create a new virtual environment and install the required libraries/packages/extensions in the virtual environment by typing "conda env create --name {environment_name} --file={absolute_address_of_requirements.txt}" in the terminal or an Anaconda command prompt.
+       D. Create a new virtual environment and install the required libraries/packages/extensions in the virtual environment by typing "conda env create --name {environment_name} --file={absolute_address_of_requirements.txt} conda-forge" in the terminal or an Anaconda command prompt.
        
        E. Activate the virtual environment by typing "conda activate {environment_name}" in the terminal or an Anaconda command prompt.
+
+       F. Install the kernel for jupyter notebook by typing "ipython kernel install --user --name=python" in the terminal or an Anaconda command prompt.
        
 6. Accessing the GUI: To use BoReMi, open the notebook that contains the GUI. Type "jupyter-lab {absolute_address_of_the_GUI.ipynb}" in the terminal or an Anaconda command prompt.
 
