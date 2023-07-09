@@ -44,7 +44,7 @@ Bokeh-based jupyter-interface for Registering spatio-molecular data to related M
        
        E. Activate the virtual environment by typing "conda activate {environment_name}" in the terminal or an Anaconda command prompt.
 
-       F. Install the kernel for jupyter notebook by typing "ipython kernel install --user --name=python" in the terminal or an Anaconda command prompt.
+       F. Install the kernel for jupyter by typing "ipython kernel install --user --name=python" in the terminal or an Anaconda command prompt.
        
 6. Accessing the GUI: To use BoReMi, open the notebook that contains the GUI. Type "jupyter-lab {absolute_address_of_the_GUI.ipynb}" in the terminal or an Anaconda command prompt.
 
