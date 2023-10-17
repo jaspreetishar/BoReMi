@@ -32,22 +32,10 @@ Bokeh-based jupyter-interface for Registering spatio-molecular data to related M
    - Git Clone: Use the command "git clone https://github.com/jaspreetishar/BoReMi.git" to clone the repository and extract the notebooks onto your local machine/cluster.
 
 4. Required libraries/packages/extensions: Make sure to install the required libraries/packages/extensions mentioned in the 'requirements.txt' file on the repository's main page.
-   - Setting up a New Virtual Environment: It is recommended to create a new virtual environment for using BoReMi to avoid conflicts with existing versions of the required libraries/packages/extensions. Follow these steps to set up a virtual environment in Conda -
+   - It is recommended to create a new virtual environment (for example, in Conda) for using BoReMi to avoid conflicts with existing versions of the required libraries/packages/extensions.
        
-       A. Install Conda by visiting the provided [link](https://docs.conda.io/en/latest/miniconda.html) and following the installation guidelines for your operating system.
+5. Accessing the GUI: To use BoReMi, open the notebook that contains the GUI. Type "jupyter-lab {absolute_address_of_the_GUI.ipynb}" in the terminal or an Anaconda command prompt.
 
-       B. Check if Conda is successfully installed by opening the terminal or an Anaconda command prompt and typing "conda -V". You should see "conda {version}" if it is installed correctly.
-       
-       C. Update the Conda environment by entering "conda update conda" in the terminal or an Anaconda command prompt.
+6. BoReMi Usage: Follow the provided guidelines and instructions inside GUI.ipynb. Begin using the tool and explore its functionalities.
 
-       D. Create a new virtual environment and install the required libraries/packages/extensions in the virtual environment by typing "conda env create --name {environment_name} --file={absolute_address_of_requirements.txt} conda-forge" in the terminal or an Anaconda command prompt.
-       
-       E. Activate the virtual environment by typing "conda activate {environment_name}" in the terminal or an Anaconda command prompt.
-
-       F. Install the kernel for jupyter by typing "ipython kernel install --user --name=python" in the terminal or an Anaconda command prompt.
-       
-6. Accessing the GUI: To use BoReMi, open the notebook that contains the GUI. Type "jupyter-lab {absolute_address_of_the_GUI.ipynb}" in the terminal or an Anaconda command prompt.
-
-7. BoReMi Usage: Follow the provided guidelines and instructions inside GUI.ipynb. Begin using the tool and explore its functionalities.
-
-8. Exit: To exit the virtual environment, type "conda deactivate" in the terminal or an anaconda command prompt.
+7. Exit: To exit the virtual environment, type "conda deactivate" in the terminal or an anaconda command prompt.
