@@ -1,0 +1,25 @@
+Widget values for Updated Data and Image
+
+Manipulations for Image:
+
+
+Pixel Size (in um/px): 0.13
+Rotation Angle (in degrees): 0
+Index of Chosen Image: 3
+
+
+Manipulations for Data:
+
+
+Flip around Vertical Plane: true
+Flip around Horizontal Plane: true
+Pixel Size (in um/px): 1
+Rotation Angle (in degrees): -16
+Translocation in the x-axis (in px): 450
+Translocation in the y-axis (in px): -28
+
+
+Miscellaneous:
+
+
+Display Scale (in um/px): 1
