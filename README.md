@@ -29,6 +29,11 @@ Bokeh-based jupyter-interface for Registering spatio-molecular data to related M
 - [Repository Folder](https://github.com/jaspreetishar/BoReMi/tree/main/Binder/reference_registration_parameters)
 
 
+## Computational Requirements
+
+BoReMi has modest resource requirements: On a Surface Pro 7 tablet (Intel Core i5-1035G4, 16GB memory) it runs smoothly and opens the Merfish mouse brain dataset with ~83k cells (subsampled to ~10k cells for visualisation) and images with ~100 MP in about two minutes for PNG images and in about 1 minute for JPEG images. Downsampling the number of displayed data points to ~10k, while all data points are being processed, ensures lag-free interaction even with modest computational resources.
+
+
 ## Quick Start Guide: Setting up BoReMi on a Cluster or a Local Environment
 
 1. Notebooks: To set up BoReMi, two notebooks are provided in the `BoReMi directory` on the repository's main page: `GUI.ipynb` and `Functions.ipynb`.
