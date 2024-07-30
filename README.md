@@ -87,7 +87,7 @@ BoReMi has modest resource requirements: On a Surface Pro 7 tablet (Intel Core i
        pip install --upgrade -r requirements.txt
        ```
 
-   #### *By following these steps, you will ensure that BoReMi runs smoothly without any library conflicts, improving user experience.*
+   *By following these steps, you will ensure that BoReMi runs smoothly without any library conflicts, improving user experience.*
        
 5. Accessing the GUI: To use BoReMi, open the `GUI.ipynb` file by typing the following in the terminal or an Anaconda command prompt:
    
