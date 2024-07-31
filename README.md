@@ -26,7 +26,11 @@ Bokeh-based jupyter-interface for Registering spatio-molecular data to related M
  
 ## Reference Registration Parameters to recreate HE/DAPI registrations from the Binder
 
-- [Repository Folder](https://github.com/jaspreetishar/BoReMi/tree/main/Binder/reference_registration_parameters)
+- [Repository Folder](https://github.com/jaspreetishar/BoReMi/tree/main/reference_registration_parameters)
+
+## Reference Analyses Notebooks
+
+- [Repository Folder](https://github.com/jaspreetishar/BoReMi/tree/main/reference_analyses_notebooks)
 
 
 ## Computational Requirements
@@ -44,7 +48,7 @@ BoReMi has modest resource requirements: On a Surface Pro 7 tablet (Intel Core i
    - Direct Download: Click on "Code" at the upper right corner of this repository and select "Download ZIP". Move the downloaded .zip file to the desired directory on your local machine/cluster and unpack it.
    - Git Clone: Use the command `git clone https://github.com/jaspreetishar/BoReMi.git` to clone the repository and extract the notebooks onto your local machine/cluster.
 
-3. Required Libraries/Packages/Extensions: Ensure you install the necessary libraries, packages, and extensions specified in the `requirements.txt` file located on the repository's main page using the following guidelines.
+3. Required Libraries/Packages/Extensions: Ensure you install the necessary libraries, packages, and extensions specified in the `environment.yml` file located on the repository's main page using the following guidelines.
 
    - Navigate to the Project Directory
      - First, navigate to the root directory of the project. For example:
@@ -55,36 +59,21 @@ BoReMi has modest resource requirements: On a Surface Pro 7 tablet (Intel Core i
         
         *Replace `path/to/BoReMi` with the actual path to the cloned repository.*
      
-   - Create a New Virtual Environment
-     - To avoid conflicts with existing versions of the required libraries/packages/extensions, it is recommended to create a new virtual environment. For instance, you can use Conda to create this environment:
+   - Create a New Virtual Environment and Install Dependencies
+     - To avoid conflicts with existing versions of the required libraries/packages/extensions, it is recommended to create a new virtual environment. For instance, you can use Conda to create this environment and install all the dependencies specified in the `environment.yml` file using the following set of commands:
 
        ```bash
-       conda create --name boremi_env python=3.11.5
+       conda env create -f environment.yml
        conda activate boremi_env
+       python -m ipykernel install --user --name=boremi_env
        ```
-     
-   - Install Dependencies in the Virtual Environment
-     - Once the virtual environment is activated, install the dependencies from the `requirements.txt` file:
-     
-       ```bash
-       pip install -r requirements.txt
-       ```
-
-   - Install Jupyter Lab and Connect the IPython Kernel
-     - Install Jupyter Lab and set up the IPython kernel for your virtual environment:
-
-        ```bash
-        conda install -c conda-forge jupyterlab=3.6.3
-        python -m ipykernel install --user --name=boremi_env
-        ```
-
-       *This will allow you to select the boremi_env kernel when running Jupyter Lab.*
-  
+      *The third command will allow you to select the boremi_env kernel when running Jupyter Lab.*
+    
    - Update Regularly
-     - Periodically check for updates to the `requirements.txt` file and update your virtual environment accordingly to stay compatible with the latest features and fixes:
+     - Periodically check for updates to the `environment.yml` file and update your virtual environment accordingly to stay compatible with the latest features and fixes:
 
        ```bash
-       pip install --upgrade -r requirements.txt
+       conda env update -f environment.yml
        ```
 
    *By following these steps, you will ensure that BoReMi runs smoothly without any library conflicts, improving user experience.*
