@@ -35,7 +35,7 @@ Bokeh-based jupyter-interface for Registering spatio-molecular data to related M
 
 ## Computational Requirements
 
-BoReMi has modest resource requirements: On a Surface Pro 7 tablet (Intel Core i5-1035G4, 16GB memory) it runs smoothly and opens the Merfish mouse brain dataset with ~83k cells (subsampled to ~10k cells for visualisation) and images with ~100 MP in about two minutes for PNG images and in about 1 minute for JPEG images. Downsampling the number of displayed data points to ~10k, while all data points are being processed, ensures lag-free interaction even with modest computational resources.
+BoReMi has modest resource requirements: On a Surface Pro 7 tablet (Intel Core i5-1035G4, 16GB memory) it runs smoothly and opens the Merfish mouse brain dataset with ~83,000 cells (subsampled to ~10,000 cells for visualisation) and images with ~100 MP in about two minutes for PNG images and in about 1 minute for JPEG images. Downsampling the number of displayed data points to ~10,000, while all data points are being processed, ensures lag-free interaction even with modest computational resources.
 
 
 ## Quick Start Guide: Setting up BoReMi on a Cluster or a Local Environment
