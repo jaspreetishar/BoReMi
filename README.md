@@ -7,6 +7,9 @@ Bokeh-based jupyter-interface for Registering spatio-molecular data to related M
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jaspreetishar/BoReMi/main?urlpath=/lab/tree/Binder/GUI.ipynb)
 
+## Publication
+
+We are excited to share that [BoReMi](https://doi.org/10.1371/journal.pcbi.1012504) has been published in PLOS Computational Biology! Please access the paper for a deeper look into its development, methodologies, and the ways it can support your research in spatial image analysis. We hope it is helpful and inspiring!
 
 ## Example Data Sources
 
